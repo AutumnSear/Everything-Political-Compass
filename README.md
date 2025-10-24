@@ -22,6 +22,9 @@
 
 
 ## Quick start:
+Before trying anything, clone the repo and run 
+`pip install -r Everything-Political-Compass\requirements.txt`
+
 ### Mapping and analysing:
 1. The data is already all in the data folder so you can do what you want with it.
 2. you can run `manual.py` to get a graph and interface.
