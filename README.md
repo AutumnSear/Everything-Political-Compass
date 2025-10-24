@@ -29,6 +29,7 @@ Before trying anything, clone the repo and run
 1. The data is already all in the data folder so you can do what you want with it.
 2. you can run `manual.py` to get a graph and interface.
 
+### Generating new data for new entities
 *Wont be quick but it'll be a start..*
 Keep in mind this will require a somewhat alright computer.
 1. First you will want to get [Ollama](https://ollama.com/).
