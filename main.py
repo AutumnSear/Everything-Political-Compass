@@ -7,6 +7,143 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 
 questions = [
+    # # Sigma (Self-Reliant) v Beta (Conformist)
+    # {
+    #     "Category": "Sigma v Beta",
+    #     "Question": "True strength comes from working alone rather than in a group.",
+    #     "Extreme_Pro": "Collaboration is a weakness; all great achievements come from isolation and independence.",
+    #     "Extreme_Anti": "Independence is selfish; people should always rely on and serve their group or community.",
+    #     "Direction": -1
+    # },
+    # {
+    #     "Category": "Sigma v Beta",
+    #     "Question": "Social approval is not important to personal success.",
+    #     "Extreme_Pro": "Public opinion means nothing; only your own goals matter.",
+    #     "Extreme_Anti": "Reputation and social validation are everything; one must always seek approval.",
+    #     "Direction": -1
+    # },
+    # {
+    #     "Category": "Sigma v Beta",
+    #     "Question": "Leadership should be earned through action, not popularity.",
+    #     "Extreme_Pro": "True leaders operate in the shadows, proving themselves through results alone.",
+    #     "Extreme_Anti": "Leadership should always go to the most socially admired and well-liked person.",
+    #     "Direction": -1
+    # },
+    # {
+    #     "Category": "Sigma v Beta",
+    #     "Question": "It’s better to stand apart than blend in with the crowd.",
+    #     "Extreme_Pro": "One should reject all trends, rules, and expectations to remain truly authentic.",
+    #     "Extreme_Anti": "Fitting in and following social trends is the best way to find success.",
+    #     "Direction": -1
+    # },
+    # {
+    #     "Category": "Sigma v Beta",
+    #     "Question": "Networking and social hierarchies are essential to getting ahead.",
+    #     "Extreme_Pro": "Your worth depends on how well you fit into the social ladder.",
+    #     "Extreme_Anti": "All hierarchies and social systems should be ignored; only individual merit matters.",
+    #     "Direction": 1
+    # },
+    # {
+    #     "Category": "Sigma v Beta",
+    #     "Question": "People who keep to themselves are often more capable than those constantly socializing.",
+    #     "Extreme_Pro": "Only solitude and discipline create true excellence.",
+    #     "Extreme_Anti": "Isolation is a flaw; success only comes from teamwork and social cooperation.",
+    #     "Direction": -1
+    # },
+    # {
+    #     "Category": "Sigma v Beta",
+    #     "Question": "Rules are meant to be followed, not questioned.",
+    #     "Extreme_Pro": "All individuals should conform completely to authority and established norms.",
+    #     "Extreme_Anti": "Rules exist to be broken; no one should submit to social control.",
+    #     "Direction": 1
+    # },
+    # {
+    #     "Category": "Sigma v Beta",
+    #     "Question": "Charisma and social charm are more valuable than silent determination.",
+    #     "Extreme_Pro": "Without social skills, you will always fail regardless of ability.",
+    #     "Extreme_Anti": "Charm is meaningless; results matter more than popularity.",
+    #     "Direction": 1
+    # },
+    # {
+    #     "Category": "Sigma v Beta",
+    #     "Question": "One should avoid emotional attachment to maintain focus and independence.",
+    #     "Extreme_Pro": "Emotions are weaknesses that distract from personal growth.",
+    #     "Extreme_Anti": "Emotional connection is the foundation of human strength.",
+    #     "Direction": -1
+    # },
+
+    # # Locked In (Focused) v Geeked (Chaotic)
+    # {
+    #     "Category": "Locked In v Geeked",
+    #     "Question": "Staying calm and composed is better than being hyped and emotional.",
+    #     "Extreme_Pro": "Emotions should always be suppressed in favor of logic and focus.",
+    #     "Extreme_Anti": "Life is about feeling everything intensely and expressing it openly.",
+    #     "Direction": -1
+    # },
+    # {
+    #     "Category": "Locked In v Geeked",
+    #     "Question": "Discipline is the most important quality a person can have.",
+    #     "Extreme_Pro": "Every moment should be dedicated to productivity and control.",
+    #     "Extreme_Anti": "Discipline kills creativity; it’s better to live in the moment and act impulsively.",
+    #     "Direction": -1
+    # },
+    # {
+    #     "Category": "Locked In v Geeked",
+    #     "Question": "Passion and chaos drive innovation more than structure and calm.",
+    #     "Extreme_Pro": "Only unrestrained emotion and wild ideas lead to real breakthroughs.",
+    #     "Extreme_Anti": "All chaos is destructive; only order and control create lasting success.",
+    #     "Direction": 1
+    # },
+    # {
+    #     "Category": "Locked In v Geeked",
+    #     "Question": "Getting too 'geeked' or excited makes people lose focus.",
+    #     "Extreme_Pro": "All excitement is a distraction; true mastery is emotionless and steady.",
+    #     "Extreme_Anti": "Being excited and hyped is the key to motivation and drive.",
+    #     "Direction": -1
+    # },
+    # {
+    #     "Category": "Locked In v Geeked",
+    #     "Question": "People should let their emotions guide their actions.",
+    #     "Extreme_Pro": "Act only when inspired or emotionally charged; logic limits true expression.",
+    #     "Extreme_Anti": "Emotion should never dictate behavior; always act with control and reason.",
+    #     "Direction": 1
+    # },
+    # {
+    #     "Category": "Locked In v Geeked",
+    #     "Question": "Overthinking is worse than being impulsive.",
+    #     "Extreme_Pro": "It’s better to move fast and mess up than stay stuck analyzing everything.",
+    #     "Extreme_Anti": "Impulsiveness is weakness; every action should be calculated and deliberate.",
+    #     "Direction": 1
+    # },
+    # {
+    #     "Category": "Locked In v Geeked",
+    #     "Question": "Grinding quietly is better than celebrating loudly.",
+    #     "Extreme_Pro": "Silent work and focus are superior to any form of outward hype.",
+    #     "Extreme_Anti": "Celebrating progress and hyping yourself up is essential to success.",
+    #     "Direction": -1
+    # },
+    # {
+    #     "Category": "Locked In v Geeked",
+    #     "Question": "The best ideas come from moments of chaos and energy.",
+    #     "Extreme_Pro": "Only madness and overstimulation birth genius.",
+    #     "Extreme_Anti": "All great ideas are the result of calm, collected focus.",
+    #     "Direction": 1
+    # },
+    # {
+    #     "Category": "Locked In v Geeked",
+    #     "Question": "Being constantly 'on' and energetic is better than staying stoic and calm.",
+    #     "Extreme_Pro": "Low energy means failure; one should always be amped up and expressive.",
+    #     "Extreme_Anti": "Overexcitement ruins discipline; stillness is the path to mastery.",
+    #     "Direction": 1
+    # },
+    # {
+    #     "Category": "Locked In v Geeked",
+    #     "Question": "Meditation and mindfulness are superior to adrenaline and thrill-seeking.",
+    #     "Extreme_Pro": "The mind should be empty, still, and controlled at all times.",
+    #     "Extreme_Anti": "The mind should always be racing, excited, and fully alive with sensation.",
+    #     "Direction": -1
+    # }
+
     # Economic (Left v Right)
     {
         "Category": "Economic (Left v Right)",
@@ -662,64 +799,260 @@ questions = [
 
 def get_llm_prompt(entity, question, extreme_pro, extreme_anti):
     prompt = f"""
-You are asked to evaluate the political stance of {entity} on the following statement.
-Provide a brief 1–2 sentence explanation of their likely stance relative to **global politics**, then give a single floating-point number between -1.00 and 1.00, where:
--1.00 = the most extreme position against this policy globally
-  (Extreme_Anti)
-1.00 = the most extreme position in favor of this policy globally
-  (Extreme_Pro)
+You are a political analyst tasked with evaluating the political stance of {entity} relative to global politics.
 
-Please be specific, unbiased, and avoid generic answers. Base your evaluation on the party's known policies, statements, and historical actions, considering **how this compares worldwide**, not just in their local context.
+Your goal is to estimate what {entity} would answer this question on a **universal political compass** scale, using evidence-based reasoning and real-world context (laws, policies, political behavior, historical actions, and global indices).
 
-Statement: "{question}"
-Extreme_Pro: "{extreme_pro}"
-Extreme_Anti: "{extreme_anti}"
+### GLOBAL SCALE REFERENCE
+Use the following scale to anchor your evaluation **consistently across all countries and political actors**:
 
-Format your answer exactly like this:
-Explanation: [one or two sentences (facts and figures)]
-Score: [a number between -1.00 and 1.00, float rounded to 2 decimal places]
+-1.00 → "{extreme_anti}" (100% disagree)
+-0.50 → Center-anti (disagree)
+ 0.00 → Centrist / mixed (Neutral, indifferent, balanced, neither pro nor anti)
++0.50 → Center-pro (agree)
++1.00 → "{extreme_pro}" (100% agree)
+
+Always consider **global relativity** — not just local or national context.
+
+### STATEMENT TO EVALUATE
+"{question}"
+
+### TASK INSTRUCTIONS
+1. Evaluate how {entity} aligns with this statement, using **global political standards**.
+2. Base your reasoning on factual evidence: **laws, policies, voting records, implemented actions, governance history, and measurable outcomes** — not just stated beliefs or rhetoric.
+3. Always distinguish between ideological statements and actual governance structures. If {entity} operates within a welfare-state system (e.g., New Zealand, UK, EU), limit their leftward/rightward shift accordingly, since practical policy implementation remains mixed-market by global standards.
+4. Avoid bias, ideology, or moral judgment — use comparative political analysis.
+5. Your output must follow the format exactly:
+
+---
+**Explanation:** [1–2 concise sentences comparing {entity} to global norms and real-world behavior]
+**Score:** [a single float between -1.00 and 1.00, rounded to two decimals]
+---
 """
-
     return prompt
 
 entities = {
-    "New Zealand",
-    "Australia",
-    "United States of America",
-    "United Kingdom",
-    "Canada",
-    "Germany",
-    "France",
-    "Italy",
-    "Sweden",
-    "Norway",
-    "Finland",
-    "Poland",
-    "Ukraine",
-    "Russia",
-    "China",
-    "Japan",
-    "South Korea",
-    "India",
-    "Pakistan",
-    "Israel",
-    "Iran",
-    "Saudi Arabia",
-    "Turkey",
-    "Egypt",
-    "South Africa",
-    "Brazil",
-    "Argentina",
-    "Mexico",
-    "Chile",
-    "Venezuela",
-    "Cuba",
-    "Vietnam",
-    "Indonesia",
-    "Philippines",
-    "Singapore",
-    "Nigeria",
-    "Ethiopia"
+    # #countries
+    # "New Zealand",
+    # "Australia",
+    # "United States of America",
+    # "United Kingdom",
+    # "Canada",
+    # "Germany",
+    # "France",
+    # "Italy",
+    # "Sweden",
+    # "Norway",
+    # "Finland",
+    # "Poland",
+    # "Ukraine",
+    # "Russia",
+    # "China",
+    # "Japan",
+    # "South Korea",
+    # "India",
+    # "Pakistan",
+    # "Israel",
+    # "Iran",
+    # "Saudi Arabia",
+    # "Turkey",
+    # "Egypt",
+    # "South Africa",
+    # "Brazil",
+    # "Argentina",
+    # "Mexico",
+    # "Chile",
+    # "Venezuela",
+    # "Cuba",
+    # "Vietnam",
+    # "Indonesia",
+    # "Philippines",
+    # "Singapore",
+    # "Nigeria",
+    # "Ethiopia",
+    # "Chad",
+    # "Spain",
+    # "Portugal",
+    # "Netherlands",
+    # "Belgium",
+    # "Switzerland",
+    # "Austria",
+    # "Denmark",
+    # "Czech Republic",
+    # "Slovakia",
+    # "Hungary",
+    # "Romania",
+    # "Bulgaria",
+    # "Serbia",
+    # "Croatia",
+    # "Greece",
+    # "Ireland",
+    # "Iceland",
+    # "Estonia",
+    # "Latvia",
+    # "Lithuania",
+    # "Belarus",
+    # "Iraq",
+    # "Syria",
+    # "Lebanon",
+    # "Jordan",
+    # "Qatar",
+    # "United Arab Emirates",
+    # "Kuwait",
+    # "Oman",
+    # "Morocco",
+    # "Algeria",
+    # "Tunisia",
+    # "Libya",
+    # "Sudan",
+    # "Bangladesh",
+    # "Nepal",
+    # "Sri Lanka",
+    # "Myanmar",
+    # "Thailand",
+    # "Malaysia",
+    # "Laos",
+    # "Cambodia",
+    # "Mongolia",
+    # "Kazakhstan",
+    # "Uzbekistan",
+    # "Afghanistan",
+    # "Colombia",
+    # "Peru",
+    # "Ecuador",
+    # "Bolivia",
+    # "Paraguay",
+    # "Uruguay",
+    # "Guatemala",
+    # "Honduras",
+    # "El Salvador",
+    # "Nicaragua",
+    # "Costa Rica",
+    # "Panama",
+    # "Dominican Republic",
+    # "Haiti",
+    # "Jamaica",
+    # "Venezuela",
+    # "Kenya",
+    # "Tanzania",
+    # "Uganda",
+    # "Ghana",
+    # "Cameroon",
+    # "Angola",
+    # "Mozambique",
+    # "Zambia",
+    # "Zimbabwe",
+    # "Democratic Republic of the Congo",
+    # "Somalia",
+    # "Papua New Guinea",
+    # "Fiji",
+    # "Samoa",
+    # "Luxembourg",
+    # "Liechtenstein",
+    # "Monaco",
+    # "Andorra",
+    # "San Marino",
+    # "Malta",
+    # "Kosovo",      # partially recognized, but politically interesting
+    # "North Macedonia",
+    # "Bosnia and Herzegovina",
+    # "Slovenia",
+    # "Moldova",
+    # "Armenia",
+    # "Azerbaijan",
+    # "Georgia",
+    # "Cyprus",
+    # "Yemen",
+    # "Turkmenistan",
+    # "Tajikistan",
+    # "Kyrgyzstan",
+    # "Bahrain",
+    # "Senegal",
+    # "Ivory Coast",
+    # "Mali",
+    # "Burkina Faso",
+    # "Niger",
+    # "Benin",
+    # "Togo",
+    # "Central African Republic",
+    # "Republic of the Congo",  # not to confuse with DRC
+    # "Gabon",
+    # "Madagascar",
+    # "Malawi",
+    # "Namibia",
+    # "Botswana",
+    # "Lesotho",
+    # "Eswatini",
+    # "Rwanda",
+    # "Burundi",
+    # "Tonga",
+    # "Vanuatu",
+    # "Solomon Islands",
+    # "Brunei",
+    # "East Timor",
+    # "Maldives",
+    # "Bhutan",
+    # "Belize",
+    # "Bahamas",
+    # "Barbados",
+    # "Trinidad and Tobago",
+    # "Suriname",
+    # "Guyana",
+    # "Vatican City",       # smallest recognized state, sovereign
+    # "Montenegro",
+    # "Taiwan",             # politically sensitive but often included
+    # "Palestine",
+    # "North Korea",
+
+    # # NZ political parties
+    # "(NZ Party) NZ First",
+    # "(NZ Party) Labour",
+    # "(NZ Party) National",
+    # "(NZ Party) Greens",
+    # "(NZ Party) Te Pati Maori",
+    # "(NZ Party) ACT"
+
+    # #AUS political parties
+    # "(AUS Party) Labor",
+    # "(AUS Party) Liberal-National",
+    # "(AUS Party) Greens",
+    # "(AUS Party) One Nation",
+
+    # # Political ideologies
+    # "(Ideologies) Socialism",
+    # "(Ideologies) Capitalism",
+    # "(Ideologies) Communism",
+    # "(Ideologies) Anarchism",
+    # "(Ideologies) Conservatism",
+    # "(Ideologies) Imperialism",
+    # "(Ideologies) Progressivism",
+    # "(Ideologies) Monarchy",
+    # "(Ideologies) Theocracies",
+    # "(Ideologies) Authoritarianism",
+    # "(Ideologies) Stalinism",
+    # "(Ideologies) Absolute Monarchism",
+    # "(Ideologies) Anarcho Communism",
+    # "(Ideologies) Anarcho Capitalism",
+    # "(Ideologies) Darwinism",
+    # "(Ideologies) Fascism",
+    # "(Ideologies) Extreme Fascism"
+
+
+    # Joke entities
+    "(Muppet) Big Bird",
+    "(Muppet) Elmo",
+    "(Muppet) Cookie Monster",
+    "(Muppet) Oscar the Grouch",
+    "(Muppet) Grover",
+    "(Muppet) Bert",
+    "(Muppet) Ernie",
+    "(Muppet) Count von Count",
+    "(Muppet) Abby Cadabby",
+    "(Muppet) Rosita",
+    "(Muppet) Zoe",
+    "(Muppet) Telly Monster",
+    "(Muppet) Snuffleupagus",
+    "(Muppet) Kermit the frog"
 }
 
 client = ollama.Client()
@@ -744,14 +1077,19 @@ for entity in entities:
 
         text = response.response.strip()
 
-        explanation_match = re.search(r"Explanation:\s*(.*?)(?:Score:|$)", text, re.IGNORECASE | re.DOTALL)
-        score_match = re.search(r"Score:\s*([-+]?\d*\.?\d+)", text, re.IGNORECASE)
+        clean_text = re.sub(r"\*+", "", text).strip()
+        explanation_match = re.search(r"Explanation\s*:\s*(.*?)(?:Score\s*:|$)", clean_text, re.IGNORECASE | re.DOTALL)
+        score_match = re.search(r"Score\s*[:\-]?\s*([-+]?\d*\.?\d+)", clean_text, re.IGNORECASE)
+
+        if not score_match:
+            print("Could not parse score! Raw model output:")
+            print(text)
+            score = 0.0
+        else:
+            score = float(score_match.group(1))
 
         explanation = explanation_match.group(1).strip() if explanation_match else ""
-        score = float(score_match.group(1)) if score_match else 0.0
-
-        explanation = re.sub(r"Score:\s*[-+]?\d*\.?\d+", "", explanation, flags=re.IGNORECASE).strip()
-
+        explanation = re.sub(r"Score\s*[:\-]?\s*[-+]?\d*\.?\d+", "", explanation, flags=re.IGNORECASE).strip()
 
         result = {
             "Category": question["Category"],
@@ -760,7 +1098,6 @@ for entity in entities:
             "Explanation": explanation,
             "Score": score
         }
-
         results.append(result)
 
         # print progress
